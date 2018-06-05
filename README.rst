@@ -16,4 +16,4 @@ godoc.org_ or on the command line::
 
     godoc seehuhn.de/go/levenshtein
 
-.. _godoc.org: https://seehuhn.de/go/levenshtein
+.. _godoc.org: https://godoc.org/seehuhn.de/go/levenshtein

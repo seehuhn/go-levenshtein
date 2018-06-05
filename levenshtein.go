@@ -1,4 +1,4 @@
-package levenshtein // import "seehuhn.de/go/levenshtein"
+package levenshtein
 
 // Distance computes the Levenshtein distance between two strings.
 // This is the minimum number of single-rune edits (insertions,
@@ -39,9 +39,8 @@ func min3(a, b, c int) int {
 	if a < b {
 		if a < c {
 			return a
-		} else {
-			return c
 		}
+		return c
 	} else if b < c {
 		return b
 	}
